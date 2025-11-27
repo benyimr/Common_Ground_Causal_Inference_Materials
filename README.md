@@ -2,7 +2,7 @@
 
 Spring 2024 — MIT Department of Political Science, MIT Schwarzman College of Computing, and MIT Sloan School of Management
 
-This repository contains recitation slides I prepared and delivered (with Licheng Liu) for  
+This repository contains recitation slides I prepared and delivered (with [Licheng Liu](https://github.com/liulch)) for  
 Causal Inference (6.S059 / 15.C08 / 17.C08), taught in Spring 2024 by Professors Joseph Doyle, Roberto Rigobon, and Teppei Yamamoto.
 
 The recitations complement the course’s lectures and provide applied walkthroughs, examples, and clarifications of selected topics in modern causal inference.
