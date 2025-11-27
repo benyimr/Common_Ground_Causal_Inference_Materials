@@ -1,0 +1,57 @@
+\documentclass{beamer}
+\usepackage{ragged2e}
+\usepackage{appendixnumberbeamer}
+\usepackage{amssymb,amsmath}
+\usetheme{cousteau}
+\usepackage[scale=2]{ccicons}
+\setbeamertemplate{frametitle continuation}{}
+
+\usepackage{latexsym,hyperref,bm,graphicx}
+\usepackage{listings}
+\usepackage{fancyvrb}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{booktabs}
+
+\newcommand\Fontvi{\fontsize{9}{7.2}\selectfont}
+
+% Adaptation of the Cousteau Theme by Matthew Blackwell
+%  More Info : https://github.com/mattblackwell/cousteau
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%17.806 – Causal Inference (Undergraduate)
+\title{\LARGE{Causal Inference (6.S059/15.C08/17.C08)}}
+\subtitle{\Large{Recitation, Week XX. \\
+	\textbf{Topic:} TITLE}}
+\author{Benjamín Muñoz/Licheng Liu}
+\institute{ MIT }
+\date{ 2024 }
+
+\logo{
+\includegraphics[width=3.5cm]{MIT_Logo.eps}
+}
+
+\newcommand\independent{\protect\mathpalette{\protect\independenT}{\perp}}
+\def\independenT#1#2{\mathrel{\rlap{$#1#2$}\mkern2mu{#1#2}}}
+\newcommand{\notimplies}{%
+	\mathrel{{\ooalign{\hidewidth$\not\phantom{=}$\hidewidth\cr$\implies$}}}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\frame{\titlepage}
+
+\logo{}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Section Title 1}
+
+\begin{frame}[fragile]{ Title}
+		\begin{itemize}
+		\item A.
+		\medskip
+		\item B.
+	\end{itemize}
+\end{frame}
+
+
+\end{document}
